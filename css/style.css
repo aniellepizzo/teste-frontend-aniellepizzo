@@ -60,6 +60,17 @@ header button.aprender{
     width: 90%;
     max-width: 270px;
     margin: 50px 0 0 0;
+    
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+}
+
+header button.aprender:hover{
+    margin: 55px 0 0 0;
+    background: #2c016c;
+    border-bottom: 0px solid #2c016c;
 }
 
 header .video-header{
@@ -69,6 +80,17 @@ header .video-header{
     height: 270px;
     border-radius: 10px;
     box-shadow: 0 0 90px 4px #dfb6f6;
+}
+
+.slide-videos .owl-controls .owl-page span{
+    width: 19px;
+    height: 19px;
+    opacity: 1;
+    background: #afafb1;
+}
+
+.slide-videos .owl-controls .owl-page.active span{
+    background: #9514fa;
 }
 
 /***********************************
@@ -122,6 +144,18 @@ section.container{
     bottom: -34px;
     right: 15px; 
     cursor: pointer;
+    transform: scale(1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8)
+    
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+}
+
+#videos .slide-videos .box-video .video .play:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 #videos .slide-videos .box-video h4{
