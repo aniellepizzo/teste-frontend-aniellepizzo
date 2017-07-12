@@ -1,0 +1,155 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+/***********************************
+    CONTEUDO DA ESTRUTURA
+***********************************/
+.container-full{
+    width: 100%;
+}
+
+
+/***********************************
+    HEADER
+***********************************/
+header{    
+    padding: 80px 0;
+    
+    background: #9614ff; /* Old browsers */
+    background: -moz-linear-gradient(top, #9614ff 0%, #4339b6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #9614ff 0%,#4339b6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #9614ff 0%,#4339b6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9614ff', endColorstr='#4339b6',GradientType=0 ); /* IE6-9 */
+}
+
+header h1,
+header h2{
+    color: #fffbff;
+}
+
+header h2{
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+header button.aprender{
+    border-radius: 30px;
+    background: #4903a1;
+    color: #fffbff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 0;
+    outline: none;
+    border-bottom: 4px solid #2c016c;
+    padding: 13px 30px;
+    font-size: 18px;
+    display: block;
+    width: 90%;
+    max-width: 270px;
+    margin: 50px 0 0 0;
+}
+
+header .video-header{
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 0 0 90px 4px #dfb6f6;
+}
+
+/***********************************
+    CONTAINER VIDEOS
+***********************************/
+section.container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#videos h3{
+    font-weight: 700;
+    color: #41399c;
+    font-size: 30px;
+}
+
+#videos .slide-videos{
+    font-size: 0;
+}
+
+#videos .slide-videos .box-video{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0;
+    padding: 0 1.5%;
+}
+
+
+#videos .slide-videos .linha-videos{
+    padding: 0;
+}
+
+#videos .slide-videos .box-video .video{
+    background: #000;
+    border-radius: 5px;
+    width: 100%;
+    height: 130px;
+    position: relative;    
+}
+
+#videos .slide-videos .box-video .video .play{
+    font-size: 30px;
+    color: #fff;
+    background: #4239b6;
+    border-radius: 100%;
+    padding: 15px 10px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: -34px;
+    right: 15px; 
+    cursor: pointer;
+}
+
+#videos .slide-videos .box-video h4{
+    margin-bottom: 0;
+}
+
+#videos .slide-videos .box-video p{
+    font-size: 17px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
