@@ -13,6 +13,10 @@ p{
     font-weight: 300;
 }
 
+cite{
+    font-family: 'Radley', serif;
+}
+
 /***********************************
     CONTEUDO DA ESTRUTURA
 ***********************************/
@@ -101,17 +105,17 @@ section.container{
     padding-bottom: 90px;
 }
 
-#videos h3{
+.title h3{
     font-weight: 700;
     color: #41399c;
     font-size: 30px;
 }
 
-#videos .slide-videos{
+.slide-videos{
     font-size: 0;
 }
 
-#videos .slide-videos .box-video{
+.slide-videos .box-video{
     width: 25%;
     display: inline-block;
     vertical-align: top;
@@ -120,11 +124,11 @@ section.container{
 }
 
 
-#videos .slide-videos .linha-videos{
+.slide-videos .linha-videos{
     padding: 0;
 }
 
-#videos .slide-videos .box-video .video{
+.slide-videos .box-video .video{
     background: #000;
     border-radius: 5px;
     width: 100%;
@@ -132,7 +136,7 @@ section.container{
     position: relative;    
 }
 
-#videos .slide-videos .box-video .video .play{
+.slide-videos .box-video .video .play{
     font-size: 30px;
     color: #fff;
     background: #4239b6;
@@ -153,20 +157,73 @@ section.container{
     -ms-transition: ease 0.3s;
 }
 
-#videos .slide-videos .box-video .video .play:hover{
+.slide-videos .box-video .video .play:hover{
     transform: scale(1.1);
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-#videos .slide-videos .box-video h4{
+.slide-videos .box-video h4{
     margin-bottom: 0;
 }
 
-#videos .slide-videos .box-video p{
+.slide-videos .box-video p{
     font-size: 17px;
     font-style: italic;
 }
 
+/***********************************
+    LISTA DEPOIMENTOS
+***********************************/
+.lista-depoimentos cite{
+    color: #79797b;
+    font-size: 30px;
+    padding: 0 63px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 70px 0;
+}
+
+.lista-depoimentos cite:before,
+.lista-depoimentos cite:after{
+    display: block;
+    font-size: 170px;
+    color: #e2e2e4;
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    line-height: 0.7;
+}
+
+
+.lista-depoimentos cite:before{
+    content: "“";
+    top: -18px;
+    left: -35px;
+}
+
+.lista-depoimentos cite:after{
+    content: "”";
+    bottom: -25px;
+    right: 75px;
+}
+
+.lista-depoimentos button.mais{
+    background: #acacae;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+}
+
+.lista-depoimentos button.mais:hover{
+    background: #979799;
+}
 
 
 
